@@ -42,3 +42,16 @@ function pizza(name){
                         var mySizeChoice=new pizzatype(myPizzaSize)
                         var myCrustChoice=new Crusttype(myCrustType)
                         var myToppingChoice=new Toppingtype(myToppingType)
+
+                        $("#output").html("<div>"+"Your Pizza Choice is: "+myPizzaChoice.pizzaSelected()+"<br>"+"Selected Size:"+mySizeChoice.sizeSelected()+"<br>"+"Crust Selected:"+myCrustChoice.crustSelected()+"<br>"+"Topping Selected:  "+myToppingChoice.toppingSelected()+"<br>"+"Total Pizza Price:  "+finalPizzaPrice+"<br>"+" <button id='btnDelivery'>Delivery</button>"+"</div>")
+                    })
+                    $(document).on("click","#btnDelivery",function(){
+                       let DeliveryLocation= prompt("Where do you want your order to be delivered?")
+                       if(!DeliveryLocation){
+                           alert("Please fill in Your Location!")
+                       }
+                       else{
+                           alert("You will have to pay Ksh.150 extra for delivery")
+                       }
+                    })
+                })
