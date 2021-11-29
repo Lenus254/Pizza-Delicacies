@@ -1,8 +1,4 @@
-/* body{
-    background-image: url(./images/pizzabg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 .nav-link{
     color: orange;
     font-size: 20px;
@@ -18,41 +14,31 @@
     height: 800px;
 
 }
-.text{
+.hometext{
     color: orange;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 150px;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
+    padding-top: 30px;
 }
 #order{
     color: orange;
+    font-size: x-large;
 }
-#output{
+/* #output{
     color: white;
-}
-.col-md-4>img{
+} */
+.image{
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    margin-left: 150px;
+
 }
-.header>h1{
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: bolder;
-    color: orange;
-}
-.col-md-4>h5{
-    text-align: center;
-    color: orange;
-}
-.form{
-    background-image: url(./images/bg4.jpg);
+  
+.frminput{
+     background-image: url(./images/bg4.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 #pizzah{
     color: orange;
@@ -78,10 +64,16 @@
     margin-top: 100px;
     border-radius: 10px;
 }
-.container{
-    margin-left: 30px;
-    margin-right: 5px;
-}
+@media only screen and (max-width: 755px){
+    #pizzaType,#pizzaSize,#crusttype,#toppingtype,#pizzanumber{
+          width: 200px;
+          
+                      }
+     #output{
+         width: 300px;
+     }               
+                    }
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -100,4 +92,4 @@ footer p, a{
     font-size: large;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-}
+} 
