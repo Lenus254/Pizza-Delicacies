@@ -1,0 +1,10 @@
+.landing{
+    background-image: url(./images/pizzabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    position: relative;
+    height: 800px;
+
+}
