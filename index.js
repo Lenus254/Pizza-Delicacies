@@ -22,4 +22,12 @@ function pizza(name){
                 }
         Toppingtype.prototype.toppingSelected=function(){
                     return this.toppingName
-                }        
+                }   
+                $(document).ready(function(){
+                    $(document).on("click","#btn",function(event){
+                        event.preventDefault()
+                        
+                        var myPizzaSize=$("#pizzaSize option:selected").text()
+                        var myPizzaType=$("#pizzaType option:selected").text()
+                        var myCrustType=$("#crusttype option:selected").text()
+                        var myToppingType=$("#toppingtype option:selected").text()                 
