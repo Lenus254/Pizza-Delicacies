@@ -1,3 +1,8 @@
+/* body{
+    background-image: url(./images/pizzabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 .landing{
     background-image: url(./images/pizzabg.jpg);
     background-repeat: no-repeat;
