@@ -50,9 +50,10 @@
     color: orange;
 }
 .form{
-    background-image: url(./images/bg4.jpg);
+    background-color: black;
+    /* background-image: url(./images/bg4.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 #pizzah{
     color: orange;
