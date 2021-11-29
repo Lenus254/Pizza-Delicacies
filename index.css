@@ -6,6 +6,7 @@
 .nav-link{
     color: orange;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .landing{
     background-image: url(./images/pizzabg.jpg);
@@ -53,6 +54,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#pizzah{
+    color: orange;
+}
 #pizzaType,#pizzaSize,#crusttype,#toppingtype,#pizzanumber{
     width: 500px;
     height: 50px;
@@ -67,7 +71,7 @@
     border-radius: 15px;
 }
 #output{
-    background-color: tomato;
+    background-color:orange;
     width: 700px;
     text-align: left;
     font-size: 25px;
@@ -77,4 +81,23 @@
 .container{
     margin-left: 30px;
     margin-right: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131414;
+    color:orange;
+    margin-top: 50px;
+    margin: 50px -8px -8px -7px;
+    padding: 5px 25px 5px 25px;
+}
+.contact p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer p, a{
+    color:orange;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
