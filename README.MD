@@ -36,7 +36,7 @@ https://lenus254.github.io/Pizza-Delicacies/
 |  Select pizza flavor  |   Chiken Tika |   Chicken Tika   |
 | Select piza size  | large, medium, small |  large  |
 | Select Crust   |  Either cripsy,stuffed or glutten-free  |     |
-| select toppings  |  check all the topppings you want     |     |
+| select toppings  |  select  the topppings you want     |     |
 | Press Proceed button |     | Div sections with your selections with the total price for that selection.|
 | Press add pizza button | pizza flavor,size, crust and toppings   | new selection added to the table|
 | Press delivery button |     | Your bill is ...  |
