@@ -37,3 +37,8 @@
 .col-md-4>h5{
     text-align: center;
 }
+.form{
+    background-image: url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
