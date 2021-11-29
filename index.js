@@ -30,4 +30,10 @@ function pizza(name){
                         var myPizzaSize=$("#pizzaSize option:selected").text()
                         var myPizzaType=$("#pizzaType option:selected").text()
                         var myCrustType=$("#crusttype option:selected").text()
-                        var myToppingType=$("#toppingtype option:selected").text()                 
+                        var myToppingType=$("#toppingtype option:selected").text()  
+                        
+                        var myPizzaValue=parseInt($("#pizzaSize option:selected").val())
+                        var myCrustValue=parseInt($("#crusttype option:selected").val())
+                        var myToppingValue=parseInt($("#toppingtype option:selected").val())
+                        var pizzaQuantity=$("#pizzanumber").val()
+                        var finalPizzaPrice=(pizzaQuantity)*(myPizzaValue+myCrustValue+myToppingValue)
