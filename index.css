@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
+.nav-link{
+    color: orange;
+    font-size: 20px;
+}
 .landing{
     background-image: url(./images/pizzabg.jpg);
     background-repeat: no-repeat;
@@ -38,9 +42,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bolder;
+    color: orange;
 }
 .col-md-4>h5{
     text-align: center;
+    color: orange;
 }
 .form{
     background-image: url(/images/bg4.jpg);
@@ -67,4 +73,8 @@
     font-size: 25px;
     margin-top: 100px;
     border-radius: 10px;
+}
+.container{
+    margin-left: 30px;
+    margin-right: 5px;
 }
