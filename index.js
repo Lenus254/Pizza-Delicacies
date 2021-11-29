@@ -17,3 +17,9 @@ function pizza(name){
     Crusttype.prototype.crustSelected=function(){
                 return this.crustName
             }
+            function Toppingtype(name){
+                this.toppingName=name
+                }
+        Toppingtype.prototype.toppingSelected=function(){
+                    return this.toppingName
+                }        
