@@ -37,3 +37,8 @@ function pizza(name){
                         var myToppingValue=parseInt($("#toppingtype option:selected").val())
                         var pizzaQuantity=$("#pizzanumber").val()
                         var finalPizzaPrice=(pizzaQuantity)*(myPizzaValue+myCrustValue+myToppingValue)
+
+                        var myPizzaChoice=new pizza(myPizzaType)
+                        var mySizeChoice=new pizzatype(myPizzaSize)
+                        var myCrustChoice=new Crusttype(myCrustType)
+                        var myToppingChoice=new Toppingtype(myToppingType)
