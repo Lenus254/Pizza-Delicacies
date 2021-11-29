@@ -11,3 +11,9 @@ function pizza(name){
     pizzatype.prototype.sizeSelected=function(){
             return this.pizzatype
         }
+        function Crusttype(name){
+            this.crustName=name
+            }
+    Crusttype.prototype.crustSelected=function(){
+                return this.crustName
+            }
